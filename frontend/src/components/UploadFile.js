@@ -25,7 +25,7 @@ const UploadFile = () => {
     formData.append('myfile', file);
 
     try {
-      const response = await axios.post("https://file-sharing-13d6.onrender.com/api/files/", formData, {
+      const response = await axios.post("https://fileshare-iz4h.onrender.com/api/files/", formData, {
         headers: {
           'Content-Type': 'multipart/form-data',
         },
