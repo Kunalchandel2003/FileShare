@@ -1,0 +1,59 @@
+.logo {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    width: 150px;
+  }
+  body{
+    background-image: url("https://www.bhmpics.com/downloads/simple-background/58.simple-background.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .app-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .container {
+    text-align: center;
+    margin: 20px;
+  }
+  
+  .upload-box {
+    max-width: 400px;
+    margin: 0 auto;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .upload-section {
+    margin-top: 20px;
+  }
+  
+  input,
+  button {
+    margin: 10px 0;
+    padding: 10px;
+    width: 100%;
+    box-sizing: border-box;
+  }
+  
+  button {
+    background-color: #4792cb;
+    color: white;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #4792cb;
+  }
+  
+  .error-message {
+    color: #ff3333;
+    margin-top: 10px;
+  }
